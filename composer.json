@@ -1,0 +1,28 @@
+{
+    "name": "viral-vector/minimvcframe",
+    "description": "Small, quick php framework as a C++ extension",
+    "keywords": ["framework", "php", "mvc", "quick", "slim", "c++","components"],
+    "license": "MIT",
+    
+    "authors": [
+        {
+            "name": "viral-vector",
+            "email": "vectorviral@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=7.0",
+        "symfony/var-dumper": "^3.1"
+    },
+
+    "autoload": {
+        "files": [
+            "src/_helpers/main.php",
+            "src/_helpers/path.php"
+        ],
+        "psr-4": {
+            "Mini\\": "src/"
+        }
+    }
+}
