@@ -1,7 +1,7 @@
 {
     "name": "viral-vector/minimvcframe",
-    "description": "Small, quick php framework as a C++ extension",
-    "keywords": ["framework", "php", "mvc", "quick", "slim", "c++","components"],
+    "description": "Small, quick php framework components",
+    "keywords": ["framework", "php", "mvc", "quick", "slim", "components"],
     "license": "MIT",
     
     "authors": [
